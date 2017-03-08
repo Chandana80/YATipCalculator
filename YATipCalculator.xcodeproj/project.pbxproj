@@ -11,9 +11,10 @@
 		3A7AC98E1E6E7E1400CB55EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7AC98D1E6E7E1400CB55EC /* ViewController.swift */; };
 		3A7AC9911E6E7E1400CB55EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A7AC98F1E6E7E1400CB55EC /* Main.storyboard */; };
 		3A7AC9931E6E7E1400CB55EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A7AC9921E6E7E1400CB55EC /* Assets.xcassets */; };
-		3A7AC9961E6E7E1400CB55EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A7AC9941E6E7E1400CB55EC /* LaunchScreen.storyboard */; };
 		3A7AC9A11E6E7E1400CB55EC /* YATipCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7AC9A01E6E7E1400CB55EC /* YATipCalculatorTests.swift */; };
 		3A7AC9AC1E6E7E1400CB55EC /* YATipCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7AC9AB1E6E7E1400CB55EC /* YATipCalculatorUITests.swift */; };
+		3A7AC9BC1E6E913A00CB55EC /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7AC9BB1E6E913A00CB55EC /* SettingsViewController.swift */; };
+		3A7AC9C01E6FDC5800CB55EC /* YATipCalculator.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3A7AC9BF1E6FDC5800CB55EC /* YATipCalculator.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +40,6 @@
 		3A7AC98D1E6E7E1400CB55EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3A7AC9901E6E7E1400CB55EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3A7AC9921E6E7E1400CB55EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3A7AC9951E6E7E1400CB55EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A7AC9971E6E7E1400CB55EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A7AC99C1E6E7E1400CB55EC /* YATipCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YATipCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A7AC9A01E6E7E1400CB55EC /* YATipCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YATipCalculatorTests.swift; sourceTree = "<group>"; };
@@ -47,6 +47,8 @@
 		3A7AC9A71E6E7E1400CB55EC /* YATipCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YATipCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A7AC9AB1E6E7E1400CB55EC /* YATipCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YATipCalculatorUITests.swift; sourceTree = "<group>"; };
 		3A7AC9AD1E6E7E1400CB55EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A7AC9BB1E6E913A00CB55EC /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		3A7AC9BF1E6FDC5800CB55EC /* YATipCalculator.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = YATipCalculator.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,11 +99,12 @@
 		3A7AC98A1E6E7E1400CB55EC /* YATipCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				3A7AC9BF1E6FDC5800CB55EC /* YATipCalculator.gif */,
 				3A7AC98B1E6E7E1400CB55EC /* AppDelegate.swift */,
 				3A7AC98D1E6E7E1400CB55EC /* ViewController.swift */,
 				3A7AC98F1E6E7E1400CB55EC /* Main.storyboard */,
+				3A7AC9BB1E6E913A00CB55EC /* SettingsViewController.swift */,
 				3A7AC9921E6E7E1400CB55EC /* Assets.xcassets */,
-				3A7AC9941E6E7E1400CB55EC /* LaunchScreen.storyboard */,
 				3A7AC9971E6E7E1400CB55EC /* Info.plist */,
 			);
 			path = YATipCalculator;
@@ -232,7 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A7AC9961E6E7E1400CB55EC /* LaunchScreen.storyboard in Resources */,
+				3A7AC9C01E6FDC5800CB55EC /* YATipCalculator.gif in Resources */,
 				3A7AC9931E6E7E1400CB55EC /* Assets.xcassets in Resources */,
 				3A7AC9911E6E7E1400CB55EC /* Main.storyboard in Resources */,
 			);
@@ -261,6 +264,7 @@
 			files = (
 				3A7AC98E1E6E7E1400CB55EC /* ViewController.swift in Sources */,
 				3A7AC98C1E6E7E1400CB55EC /* AppDelegate.swift in Sources */,
+				3A7AC9BC1E6E913A00CB55EC /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,14 +306,6 @@
 				3A7AC9901E6E7E1400CB55EC /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		3A7AC9941E6E7E1400CB55EC /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3A7AC9951E6E7E1400CB55EC /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -410,6 +406,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = YATipCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chandana.YATipCalculator;
@@ -422,6 +419,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = YATipCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chandana.YATipCalculator;
@@ -503,6 +501,7 @@
 				3A7AC9B21E6E7E1400CB55EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3A7AC9B31E6E7E1400CB55EC /* Build configuration list for PBXNativeTarget "YATipCalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +510,7 @@
 				3A7AC9B51E6E7E1400CB55EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3A7AC9B61E6E7E1400CB55EC /* Build configuration list for PBXNativeTarget "YATipCalculatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +519,7 @@
 				3A7AC9B81E6E7E1400CB55EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
